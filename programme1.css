@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: auto;
+    background: hsl(216, 78%, 84%);
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.all .SmileEmoji,
+.AngryEmoji {
+    border: 2px solid #000000;
+    padding: 60px;
+    background-color: #ffd166;
+    height: 100%;
+    width: 05%;
+    border-radius: 50%;
+    box-shadow: 3px #be7c11;
+    margin-top: 100px;
+
+}
+
+
+.SmileEmoji .eyes {
+    border: 10px solid #000000;
+    border-radius: 50%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    position: absolute;
+    top: 170px;
+    left: 47.5%;
+
+}
+
+.AngryEmoji .eyes {
+    border: 10px solid #000000;
+    border-radius: 50%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    position: absolute;
+    top: 430px;
+    left: 47.5%;
+
+}
+
+.SmileEmoji .eyes:nth-child(2),
+.AngryEmoji .eyes:nth-child(2) {
+    left: 51%;
+}
+
+.SmileEmoji .mouth {
+    height: 27px;
+    width: 27px;
+    background: transparent;
+    border: 3px solid transparent;
+    border-left: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    border-radius: 50%;
+    position: absolute;
+    top: 220px;
+    left: 49%;
+    transform: rotate(-45deg);
+}
+
+.AngryEmoji .mouth1 {
+    height: 27px;
+    width: 27px;
+    background: transparent;
+    border: 3px solid transparent;
+    border-left: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    border-radius: 50%;
+    position: absolute;
+    top: 490px;
+    left: 49%;
+    transform: rotate(135deg);
+}
+
+h3 {
+    padding-top: 15px;
+    padding-left: 30px;
+    width: 200px;
+
+
+
+}
+
+h1 {
+    padding-top: 5px;
+    width: 300px;
+
+}
